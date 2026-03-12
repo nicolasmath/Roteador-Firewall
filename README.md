@@ -90,11 +90,13 @@ As configurações de **ALG (Application Layer Gateway)** ajudam o roteador a pr
 
 ---
 
+---
+
 ## 3. Tabela Comparativa de Protocolos ALG
 
 
 | Opção | Aplicação Principal | Nível de Segurança |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | **PPTP** | VPN Antiga | Baixo |
 | **IPsec** | VPN Moderna e Corporativa | Alto |
 | **RTSP** | Streaming de Vídeo / Câmeras | N/A |
