@@ -1,0 +1,96 @@
+✅ Configuração ideal no roteador para fazer o teste
+
+Deixe assim:
+
+Ativar:
+
+✔ SPI IPv4 → Habilitado
+
+✔ Anti-Spoof → Habilitado
+
+✔ Segurança simples IPv6 → Habilitado
+
+✔ Filtro de entrada IPv6 → Habilitado
+
+Deixar desligado:
+
+❌ DMZ Host → Desabilitado
+------------------------------------------------------------------------->
+1️⃣ Passo 1 – Descobrir o IP público
+
+No computador da sala, abra o Google e pesquise:
+
+qual é meu ip ---> https://meuip.com.br/
+
+Vai aparecer algo como:
+
+189.45.120.33
+
+Explique para a sala:
+
+Esse é o endereço público da rede na internet.
+---------------------------------------------------------------------------->
+2️⃣ Passo 2 – Usar um scanner de portas
+
+Entre no site:
+
+👉 https://www.grc.com/shieldsup
+
+Clique em:
+
+All Service Ports
+
+Esse site vai testar várias portas da rede.
+----
+1️⃣ Clique no botão
+
+Na parte de baixo da tela, clique em “Prosseguir”.
+
+(É o botão cinza no centro inferior da página.)
+
+2️⃣ Na próxima página
+
+Vai aparecer várias opções de teste. Procure por:
+
+🔎 All Service Ports
+------------------------------------------------------------------------->
+3️⃣ Passo 3 – Mostrar o resultado
+
+Normalmente vai aparecer algo assim:
+
+Port 21 → Stealth
+Port 22 → Stealth
+Port 80 → Stealth
+Port 3389 → Stealth
+
+Explique:
+
+Stealth = a porta está escondida
+
+Closed = a porta está fechada
+
+Open = porta aberta
+------------------------------------------------------->
+4️⃣ Explicação para a sala
+
+Você pode falar algo assim:
+
+O firewall do roteador está bloqueando todas as conexões externas que não foram solicitadas. Isso impede que invasores descubram serviços ativos na rede.
+
+💡 Explicação técnica simples
+
+O firewall faz:
+
+Internet → tentativa de conexão → Roteador
+Roteador → bloqueia → rede protegida
+🔥 Parte que impressiona o professor
+
+Fale isso no final:
+
+Se uma porta fosse aberta usando Port Forwarding ou DMZ, esse scanner mostraria a porta aberta, permitindo acesso externo ao dispositivo da rede.
+
+Isso mostra que você entendeu o funcionamento do firewall.
+
+⭐ Frase boa para fechar a apresentação
+
+O firewall do roteador funciona como um porteiro da rede, permitindo apenas conexões autorizadas e bloqueando acessos externos que podem representar riscos.
